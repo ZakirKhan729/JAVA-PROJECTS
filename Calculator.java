@@ -2,6 +2,7 @@ import java.util.*;
 public class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Calculator On");
         int ans = 0;
         while (true) {
             System.out.print("Enter the operator: ");
@@ -31,6 +32,7 @@ public class Calculator {
                     }
                 }
             }else if ((op=='x') || (op=='X')) {
+                System.out.println("Calculator off");
                 break;
             }else {
                 System.out.println("Invalid operation");
